@@ -9,11 +9,11 @@ class Mahasiswa:
         else:
             self.isMahasiswa = isMahasiswa
 
-    def set_nama(self, __nama):
-        self.nama = nama
+    def set_nama(self, nama):
+        self.__nama = nama
 
-    def set_nim(self, __nim):
-        self.nim = nim
+    def set_nim(self, nim):
+        self.__nim = nim
 
     def get_nama(self):
         return self.__nama
